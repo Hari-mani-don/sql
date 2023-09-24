@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS countries(
+COUNTRY_ID VARCHAR(2),
+COUNTRY_NAME VARCHAR(20) ,
+REGIEN_ID DECIMAL(5,0),
+CHECK (COUNTRY_NAME IN("italy", "china", "india"))
+);
+DESC countries;
