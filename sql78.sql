@@ -1,0 +1,3 @@
+SELECT EMP_DEPT AS "emp_ dep", COUNT(EMP_DEPT) AS "Count"
+FROM emp_details
+GROUP BY EMP_DEPT;
