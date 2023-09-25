@@ -1,0 +1,1 @@
+SELECT * FROM emp_details WHERE EMP_LNAME lIKE 'D%';
