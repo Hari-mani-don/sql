@@ -1,0 +1,1 @@
+SELECT * FROM salesman WHERE name NOT BETWEEN 'A' AND 'L';
